@@ -1,8 +1,9 @@
 #Netflix GPT
 
-- Create Vite
-- Configured Tailwind CSS
-- 
+-Designed Login page and header
+-Used firebase authentication
+-Did TMDB API calls to get fetch movies data
+-Created custom Hooks 
 
 #Features
 
