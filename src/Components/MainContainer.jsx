@@ -12,7 +12,6 @@ function MainContainer() {
     const mainMovie = movies[1];
     const { original_title, overview, id } = mainMovie;
 
-
     return (
         <div>
             <VideoTitle title={original_title} overview={overview}  />

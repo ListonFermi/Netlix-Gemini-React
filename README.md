@@ -5,6 +5,7 @@
 -Did TMDB API calls to get fetch movies data
 -Created custom Hooks 
 
+
 #Features
 
 - Browse
