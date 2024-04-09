@@ -1,21 +1,12 @@
-#Netflix GPT
+#Netflix Gemini
 
--Designed Login page and header
--Used firebase authentication
--Did TMDB API calls to get fetch movies data
--Created custom Hooks 
+Login Page
+Signup Page
+Browse Page
+    Video Section
+    Movies Section
+Gemini Search Page
 
 
-#Features
-
-- Browse
-    -Header
-    -Hero Section
-        -Trailer
-        -Title & Buttons
-        -Movie Rows
-    -Footer
-
-- Login
-- Signup
-    
+Gemini AI search integration and TMDB API intergration included.
+     
