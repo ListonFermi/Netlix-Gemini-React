@@ -1,15 +1,6 @@
-/*export const TMDB_API_OPTIONS = {
-  method: "GET",
-  headers: {
-    accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlMmRkNzlkNTBmYmYyYTMzYjY3ODAzYTZmNzkyZmNiNCIsInN1YiI6IjY2MDcwYTE3MDIxY2VlMDE3YzQ4YjhhZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.tTVHcEyJZgb-9yPTu2aZH6Xt7EKe9XQkjBmiR6Njtio",
-  },
-};
-*/
-export const GEMINI_API_KEY = 'AIzaSyBwv_ojK68YW2AnfwFDytweUJ5F_81GAUE'
+export const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY
 
-const API_KEY_HERE = 'e2dd79d50fbf2a33b67803a6f792fcb4'
+const API_KEY_HERE = import.meta.env.VITE_API_KEY_HERE
 
 export const TMDB_POPULAR = `https://api.themoviedb.org/3/movie/popular?page=1&`;
 
