@@ -2,6 +2,8 @@ export const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY
 
 const API_KEY_HERE = import.meta.env.VITE_API_KEY_HERE
 
+export const FRIEBASE_API_KEY = import.meta.env.VITE_FIREBASE_API_KEY
+
 export const TMDB_POPULAR = `https://api.themoviedb.org/3/movie/popular?page=1&`;
 
 

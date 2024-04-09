@@ -1,8 +1,9 @@
 import { initializeApp } from "firebase/app";
 import { getAuth} from "firebase/auth";
+import { FRIEBASE_API_KEY } from "./constants";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBh7dfjG4x0HdnrRWEjn2Jo7kYb4e4m478",
+  apiKey: FRIEBASE_API_KEY,
   authDomain: "netflix-gpt-react-listonfermi.firebaseapp.com",
   projectId: "netflix-gpt-react-listonfermi",
   storageBucket: "netflix-gpt-react-listonfermi.appspot.com",
