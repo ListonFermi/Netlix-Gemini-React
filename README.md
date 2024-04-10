@@ -10,3 +10,5 @@
 
 
 # Gemini AI search integration and TMDB API intergration included.
+
+# Did authentication using firebase.
