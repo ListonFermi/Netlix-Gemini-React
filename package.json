@@ -21,7 +21,7 @@
   "devDependencies": {
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
-    "@vitejs/plugin-react": "^4.7.0",
+    "@vitejs/plugin-react": "^5.2.0",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
@@ -30,5 +30,8 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^8.3.7"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.14.7"
   }
 }
